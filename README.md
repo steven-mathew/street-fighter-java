@@ -5,7 +5,7 @@ If you have any problems with the game loading assets, download the project and 
 ---
 ## Controls
 
-###Player 1:
+### Player 1:
   W - jump
   A - strafe left
   S - crouch
@@ -15,7 +15,7 @@ If you have any problems with the game loading assets, download the project and 
   B - heavy kick (can also be used in air)
   N - light kick 
   
-###Player 2:
+### Player 2:
   ↑ - jump
   ← - strafe left
   ↓ - crouch
