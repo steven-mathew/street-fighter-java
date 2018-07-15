@@ -1,5 +1,5 @@
 # Street Fighter
-**Open the .jar file to play the game!**
+*Open the .jar file to play the game!*
 ---
 If you have any problems with the game loading assets, download the project and import to your java IDE. There, under com.streetFighter.main, execute the Game.java class.
 ---
