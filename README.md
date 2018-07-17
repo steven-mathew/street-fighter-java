@@ -24,3 +24,4 @@ If you have any problems with the game loading assets, download the project and 
  - 3 - heavy kick (can also be used in air)
  - 4 - light kick 
   
+![alt text](https://gyazo.com/13cb8ba36106ea7f9baa8e091060bd7a)
