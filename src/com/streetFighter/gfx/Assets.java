@@ -10,13 +10,12 @@ public class Assets {
 
 	
 	// ============================================ SPRITE SHEETS: RYU ============================================
-	
-	
+		
 	// basic movement
 	public static BufferedImage[] 	idle            = new BufferedImage[6], 
-									parry_f         = new BufferedImage[8], 
-									parry_b         = new BufferedImage[8],
-									crouch          = new BufferedImage[1];
+					parry_f         = new BufferedImage[8], 
+					parry_b         = new BufferedImage[8],
+					crouch          = new BufferedImage[1];
 
 	// ground attack
 	public static BufferedImage[] 	punch           = new BufferedImage[6], 
