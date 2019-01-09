@@ -26,12 +26,12 @@ public class Assets {
 
 	// ground kick
 	public static BufferedImage[]   kick_low        = new BufferedImage[5],
-									upper_kick      = new BufferedImage[9];
+					upper_kick      = new BufferedImage[9];
 
 	// air attack
 	public static BufferedImage[]   air_punch       = new BufferedImage[6],
-									air_kick        = new BufferedImage[5],
-									punch_down      = new BufferedImage[4];
+					air_kick        = new BufferedImage[5],
+					punch_down      = new BufferedImage[4];
 	// jumps
 	public static BufferedImage[]   back_flip       = new BufferedImage[8],
 									front_flip      = new BufferedImage[8],
