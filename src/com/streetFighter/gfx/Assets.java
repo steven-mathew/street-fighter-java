@@ -19,10 +19,10 @@ public class Assets {
 
 	// ground attack
 	public static BufferedImage[] 	punch           = new BufferedImage[6], 
-									quick_punch     = new BufferedImage[3],
-									crouch_punch    = new BufferedImage[3],
-									crouch_attack   = new BufferedImage[8],
-									uppercut        = new BufferedImage[8];
+					quick_punch     = new BufferedImage[3],
+					crouch_punch    = new BufferedImage[3],
+					crouch_attack   = new BufferedImage[8],
+					uppercut        = new BufferedImage[8];
 
 	// ground kick
 	public static BufferedImage[]   kick_low        = new BufferedImage[5],
