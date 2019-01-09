@@ -46,7 +46,7 @@ public class Assets {
 					recover         = new BufferedImage[5];
 	// misc.
 	public static BufferedImage[]   win             = new BufferedImage[10],
-									dead            = new BufferedImage[1];
+					dead            = new BufferedImage[1];
 	
 
 	// ============================================ SPRITE SHEETS: KEN ============================================
@@ -54,9 +54,9 @@ public class Assets {
 	
 	// basic movement
 	public static BufferedImage[] 	idle1            = new BufferedImage[6], 
-									parry_f1         = new BufferedImage[8], 
-									parry_b1         = new BufferedImage[8],
-									crouch1          = new BufferedImage[1];
+					parry_f1         = new BufferedImage[8], 
+					parry_b1         = new BufferedImage[8],
+					crouch1          = new BufferedImage[1];
 
 	// ground attack
 	public static BufferedImage[] 	punch1           = new BufferedImage[8], 
