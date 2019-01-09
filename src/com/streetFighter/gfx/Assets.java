@@ -34,16 +34,16 @@ public class Assets {
 					punch_down      = new BufferedImage[4];
 	// jumps
 	public static BufferedImage[]   back_flip       = new BufferedImage[8],
-									front_flip      = new BufferedImage[8],
-									jump            = new BufferedImage[11];
+					front_flip      = new BufferedImage[8],
+					jump            = new BufferedImage[11];
 
 	// hurt
 	public static BufferedImage[]   crouch_hit      = new BufferedImage[2],
-									crouch_hit_back = new BufferedImage[4],
-									hit_stand       = new BufferedImage[2],
-									hit_stand_back  = new BufferedImage[4],
-									knockback       = new BufferedImage[4],
-									recover         = new BufferedImage[5];
+					crouch_hit_back = new BufferedImage[4],
+					hit_stand       = new BufferedImage[2],
+					hit_stand_back  = new BufferedImage[4],
+					knockback       = new BufferedImage[4],
+					recover         = new BufferedImage[5];
 	// misc.
 	public static BufferedImage[]   win             = new BufferedImage[10],
 									dead            = new BufferedImage[1];
