@@ -184,8 +184,7 @@ public class Game extends Canvas implements Runnable {
 	 * @link https://stackoverflow.com/questions/18283199/java-main-game-loop
 	 */
 	
-	public void run() {
-		
+	public void run() {		
 		// init vars
 		long lastTime = System.nanoTime();
 		double nsPerTick = 1000000000.0 / 60.0;
@@ -242,12 +241,10 @@ public class Game extends Canvas implements Runnable {
 				frames = 0;
 				ticks = 0;
 			}						
-		}
-		
+		}		
 	}
 	
 	public void tick() {
-		
 		// update keyboard input
 		keyManager.tick();
 		
@@ -259,12 +256,10 @@ public class Game extends Canvas implements Runnable {
 			State.getState().tick();
 
 		}
-       
 	}
 	
 	
-	public void render() {
-		
+	public void render() {		
 		BufferStrategy bs = getBufferStrategy();
 		
 		// create a double buffering strategy
