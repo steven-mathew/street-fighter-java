@@ -4,7 +4,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class KeyManager implements KeyListener {
-
 	private boolean[] keys;
 	public boolean up, down, left, right;
 	public boolean up1, down1, left1, right1;
@@ -17,8 +16,7 @@ public class KeyManager implements KeyListener {
 		keys = new boolean[256];
 	}
 	
-	public void tick() {
-		
+	public void tick() {		
 		// movement P1
 		up    = keys[KeyEvent.VK_W];
 		down  = keys[KeyEvent.VK_S];
@@ -58,5 +56,4 @@ public class KeyManager implements KeyListener {
 	public void keyTyped(KeyEvent e) {
 		
 	}
-
 }
