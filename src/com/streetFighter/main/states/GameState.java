@@ -117,5 +117,4 @@ public class GameState extends State {
 	public int getKenX() {
 		return ken.getKenX();
 	}
-	
 }
