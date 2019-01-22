@@ -83,8 +83,7 @@ public class GameState extends State {
 			g.setColor(Color.WHITE);
 			int width = g.getFontMetrics().stringWidth(kenWin);
 			g.drawString(kenWin, Game.WIDTH - width/2, Game.HEIGHT);
-		}
-		
+		}		
 	}
 
 	@Override
