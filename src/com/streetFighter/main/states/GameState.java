@@ -12,8 +12,7 @@ import com.streetFighter.entities.Ryu;
 import com.streetFighter.gfx.*;
 import com.streetFighter.main.Game;
 
-public class GameState extends State {
-	
+public class GameState extends State {	
 	// init ryu, ken
 	private Ryu ryu;
 	private Ken ken;
@@ -24,8 +23,7 @@ public class GameState extends State {
 		
 		// create instance of ryu, ken 
 		ryu = new Ryu(game, 60, 280);
-		ken = new Ken(game, 224 * 2, 280);
-		
+		ken = new Ken(game, 224 * 2, 280);		
 	}
 	
 	@Override
@@ -39,13 +37,11 @@ public class GameState extends State {
 		
 		// update entire instance
 		ryu.tick();
-		ken.tick();
-	
+		ken.tick();	
 	}
 
 	@Override
-	public void render(Graphics g) {
-				
+	public void render(Graphics g) {				
 		// get images for ui
 		ImageIcon healthBar = new ImageIcon("healthBar.png");
 		ImageIcon ryuFont = new ImageIcon("ryuFont.png");
@@ -70,8 +66,7 @@ public class GameState extends State {
 		// render instances
 		ryu.render(g);
 		ken.render(g);	
-				
-		
+					
 		g.setColor(Color.BLACK);
 		// end game
 		if (ken.getHealth() <= 0) {
