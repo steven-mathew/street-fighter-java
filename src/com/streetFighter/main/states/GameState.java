@@ -85,11 +85,6 @@ public class GameState extends State {
 			g.drawString(kenWin, Game.WIDTH - width/2, Game.HEIGHT);
 		}		
 	}
-
-	@Override
-	public void music() {
-		// empty for now because Java 8 API issues on school computers
-	}
 	
 	// GETTERS AND SETTERS:
 	
