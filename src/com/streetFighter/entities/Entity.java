@@ -3,7 +3,6 @@ package com.streetFighter.entities;
 import java.awt.Graphics;
 
 public abstract class Entity {
-
 	// every creature has an x,y
 	protected float x, y;
 
@@ -17,6 +16,5 @@ public abstract class Entity {
 	public abstract void tick();
 	
 	// draw
-	public abstract void render(Graphics g);
-	
+	public abstract void render(Graphics g);	
 }
