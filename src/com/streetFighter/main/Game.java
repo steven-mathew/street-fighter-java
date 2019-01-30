@@ -71,7 +71,6 @@ public class Game extends Canvas implements Runnable {
 	private int map = 0;
 	
 	public Game() {
-	
 		// init frame properties
 		frame = new JFrame(TITLE);
 		frame.setSize(WIDTH * SCALE, HEIGHT * SCALE);		
